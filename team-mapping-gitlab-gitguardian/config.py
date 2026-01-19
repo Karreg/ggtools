@@ -80,7 +80,7 @@ class Config:
             f"invite_domains={self.invite_domains}, "
             f"gitlab_url={self.gitlab_url}, "
             f"gitlab_token={self.gitlab_token}, ",
-            f"gitlab_level={str(self.gitlab_level)}, ",
+            f"gitlab_level={self.gitlab_level}, ",
             f"logger_level={logging._levelToName[self.logger_level]}, "
             f"remove_members={self.remove_members}, "
             f"gitguardian_url={self.gitguardian_url}, "
