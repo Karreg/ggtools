@@ -26,7 +26,6 @@ query ($cursor: String) {
         nodes {
           accessLevel {
             integerValue
-            stringValue
           }
           group {
             id
