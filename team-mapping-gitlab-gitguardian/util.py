@@ -5,7 +5,7 @@ from typing import Iterable, TypedDict
 from email_validator import EmailNotValidError, validate_email
 from pygitguardian.models import Team
 
-
+from config import CONFIG
 
 logger = logging.getLogger(__name__)
 
